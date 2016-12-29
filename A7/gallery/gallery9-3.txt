@@ -1,0 +1,65 @@
+<div class="image_navigation">
+	<ul>
+		<li><a href="#" onclick="view9(1)"><img src="images/first.png" height="40" width="40" alt="First page"></a></li>
+		<li><a href="#" onclick="view9(2)"><img src="images/back.png" height="40" width="40" alt="Back a page"></a></li>
+		<li> Page 3 (19-27)</li>
+		<li><a href="#" onclick="view9(4)"><img src="images/forward.png" height="40" width="40" alt="Next page"></a></li>
+		<li><a href="#" onclick="view9(12)"><img src="images/last.png" height="40" width="40" alt="Last page"></a></li>
+	</ul>
+</div>
+<div class="thumbleft">
+	<a href="picture.php?photoName=Antigua1">
+		<img src="thumbs/Antigua1.jpg" height="200px" width="149px" alt="Little monkey with a peanut">
+	</a>
+</div>
+<div class="thumbmid">
+	<a href="picture.php?photoName=Antigua2">
+		<img src="thumbs/Antigua2.jpg" height="149px" width="200px" alt="Coastal shelf off Antigua.">
+	</a>
+</div>
+<div class="thumbright">
+	<a href="picture.php?photoName=Antigua6">
+		<img src="thumbs/Antigua6.jpg" height="200px" width="149px" alt="A delapidated ship, alone at sea.">
+	</a>
+</div>
+<br>
+<div class="thumbleft">
+	<a href="picture.php?photoName=Aruba1">
+		<img src="thumbs/Aruba1.jpg" height="200px" width="133px" alt="Butterfly clinging onto a little vine.">
+	</a>
+</div>
+<div class="thumbmid">
+	<a href="picture.php?photoName=Aruba2">
+		<img src="thumbs/Aruba2.JPG" height="200px" width="133px" alt="Tiny little catepillar on a leaf.">
+	</a>
+</div>
+<div class="thumbright">
+	<a href="picture.php?photoName=Aruba6">
+		<img src="thumbs/Aruba6.jpg" height="133px" width="200px" alt="Monarch butterfly.">
+	</a>
+</div>
+<br>
+<div class="thumbleft">
+	<a href="picture.php?photoName=Aruba11">
+		<img src="thumbs/Aruba11.jpg" height="200px" width="133px" alt="Aloe plant besdie a giant rock.">
+	</a>
+</div>
+<div class="thumbmid">
+	<a href="picture.php?photoName=Aruba12">
+		<img src="thumbs/Aruba12.jpg" height="132px" width="200px" alt="Rock outcropping in Aruba.">
+	</a>
+</div>
+<div class="thumbright">
+	<a href="picture.php?photoName=Aruba17">
+		<img src="thumbs/Aruba17.jpg" height="133px" width="200px" alt="Lone little bush on a lone little island.">
+	</a>
+</div>
+<div class="image_navigation">
+	<ul>
+		<li><a href="#" onclick="view9(1)"><img src="images/first.png" height="40" width="40" alt="First page"></a></li>
+		<li><a href="#" onclick="view9(2)"><img src="images/back.png" height="40" width="40" alt="Back a page"></a></li>
+		<li> Page 3 (19-27)</li>
+		<li><a href="#" onclick="view9(4)"><img src="images/forward.png" height="40" width="40" alt="Next page"></a></li>
+		<li><a href="#" onclick="view9(12)"><img src="images/last.png" height="40" width="40" alt="Last page"></a></li>
+	</ul>
+</div>

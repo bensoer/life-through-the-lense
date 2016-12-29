@@ -1,0 +1,93 @@
+TO DO:
+
+da whole site:
+
+header/footer
+
+home/index page
+
+single image page
+
+gallery page
+
+about page
+
+members page
+	
+login page
+
+sign up page
+
+final tasks after site is complete
+		
+
+
+--------------------------
+DONE:
+
+da whole site:
+	ALL OF US - come up with consistent navigation/style for the site
+	MATT - - Remove commented out code in php (registration.php, login.php)
+	YEP - decide on new colour scheme for the website
+	GERMAINE - get user authentication working (sign in/sign out)
+	GERMAINE - get user registration working
+	G - get user posting working - post must include username and timestamp
+	G/B - users must be able to remove their acct
+
+header/footer
+	MATT - make/find a better site logo
+	MATT - set the favicon to be the same?
+	MATT - get random photo link working
+
+home/index page
+	MATT - fix alignment of random images - either too little space on the left of landscape photos, or too much on the right
+	MATT - set up most of php for random images
+	MATT - get php working without timeout
+
+single image page
+	MATT - tags don't return to a new line if there are 5+ or so, they extend outside the info box.
+	MATT - make sure you can see image and tags - when window is small the picture takes up too much space and doesn't scroll
+	MATT - fix alignment of image info box, it's kinda messed.
+	BEN - set up print css style
+	MATT - get it to load tags
+	MATT - get it to load image descriptions
+	MATT - set up php to grab image names from url and load them
+	MATT - size images properly
+	MATT - set up prettyPhoto to show full-size image on click
+
+project 365 page
+	MATT - get rid of project 365 page
+
+gallery page
+	ROSS - Ross will re-jig this
+	ROSS - tags.php is missing from the svn - can't use the tags form.
+	ROSS - get gallery pages working/make them
+	MATT - fix references to images with JPG (uppercase) so they show up in gallery thumbnails
+
+about page
+	BEN - page recovered, javascript validation
+	MATT - fill in bio and equipment tabs with REAL CONTENT
+	MATT - some boxes don't line up according to benjamin
+
+members page
+	MATT - some boxes don't line up according to benjamin
+	BEN - add tags to subscriptions tab
+	BEN - page recovered, javascript validation
+	BEN - must be able to properly submit print request form
+	BEN - order form emails submitter with 
+	BEN - onSubmit server-side form validation
+
+login page
+	BEN - javascript validation
+	BEN - caps lock check
+
+sign up page
+	BEN - javascript validation
+	GERMAINE - Validation for user name? 
+
+final
+	ALL OF US - validate all HTML / PHP / CSS pages for correct style 
+	MATT - site must be "accessible" and be error-free as evaluated at wave.webaim.org
+	MATT - ensure all HTML / PHP / CSS is commented clearly
+	MATT - All gallery pages including tags pages
+	MATT - login_style.css through signup.php need to be checked for comments.

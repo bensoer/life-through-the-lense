@@ -1,0 +1,185 @@
+/* Gallery specific styles */
+#page_title 
+{
+	color: white;
+}
+.image_navigation
+{
+	color: white;
+}
+#tagform label 
+{
+	color: black;
+}
+/* Image thumbnail positioning for gallery view */
+.thumbleft
+{
+	border: none;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	float: left;
+	margin-left: 50px;
+	line-height: 200px;
+}
+
+.thumbleft a
+{
+	border: 0px;
+	text-decoration: none;
+	color: white;
+}
+
+.thumbleft img
+{
+	vertical-align: middle;
+	border: 5px solid black;
+}
+
+.thumbleft img:hover
+{
+	border: 5px solid white;
+}
+
+.thumbmid
+{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	margin-left: 50px;
+	float:left;
+	line-height: 200px;
+}
+
+.thumbmid a
+{
+	border: 0px;
+	text-decoration: none;
+	color: white;
+}
+
+.thumbmid img
+{
+	vertical-align: middle;
+	border: 5px solid black;
+}
+
+.thumbmid img:hover
+{
+	border: 5px solid white;
+}
+
+.thumbright
+{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	margin-left: 550px;
+	line-height: 200px;
+}
+
+.thumbright a
+{
+	border: 0px;
+	text-decoration: none;
+	color: white;
+}
+
+.thumbright img
+{
+	vertical-align: middle;
+	border: 5px solid black;
+}
+
+.thumbright img:hover
+{
+	border: 5px solid white;
+}
+
+/* Sets color of the links inside the form */
+#tagsearch
+ {
+	text-decoration: none;
+	color: white;
+ }
+
+ /* Positions the arrow navigation */
+ .image_navigation li
+{
+	display: inline;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.image_navigation
+{
+	text-align: center;
+}
+
+/* Form positioning - positions check boxes to select tags included in gallery view*/
+
+#macroLens
+{
+margin-left: 20px;
+}
+
+#iPhone
+{
+margin-left: 20px;
+}
+
+#indoors
+{
+margin-left: 19px;
+}
+
+#outdoors
+{
+margin-left: 19px;
+}
+
+#panorama
+{
+margin-left: 3px;
+}
+
+#longExposure
+{
+margin-left: 19px;
+}
+
+#landscape
+{
+margin-left: 16px;
+}
+
+#nature
+{
+margin-left: 25px;
+}
+
+#animals
+{
+margin-left: 22px;
+}
+
+#abstract
+{
+margin-left: 15px;
+}
+
+#colour
+{
+margin-left: 10px;
+}
+
+#blackWhite
+{
+margin-left: 46px;
+}
+
+#update
+{
+margin-left: 150px;
+}
+

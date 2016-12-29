@@ -1,0 +1,79 @@
+/* P365 specific styles */
+
+.calendar
+{
+	border: 1px solid black;
+	width: 230px;
+	text-align: center;
+	float:left;
+}
+
+.image
+{
+	border: 1px solid black;
+	height: 590px;
+	width: 590px;
+	text-align: center;
+	margin-left: 240px;
+}
+
+.image a
+{
+	border: 0px;
+	text-decoration: none;
+	color: black;
+}
+
+.clear 
+{
+	clear:both;
+}
+
+#image_info /* information section below the image - contains its name, tags and a description */
+{
+	width: 580px;
+	margin:10px 10px 50px;
+	display: block;
+	border: 1px solid black;
+	background-color: #DDDDDD;
+	border-radius: 10px;
+	float:right;
+}
+
+#image_info:last-of-type
+{
+	margin-bottom:0px;
+}
+
+.image_date /* the title of the displayed image */
+{
+	margin-top:15px;
+	margin-left: 20px;
+	float: left;
+}
+
+.image_title /* the title of the displayed image */
+{
+	margin-top:15px;
+	float: left;
+}
+
+.image_tags /* the image tag list - displays all the tags attached to the displayed image */
+{
+	float:right;
+	clear:both;
+	display: block;
+	margin-right: 20px;
+	font-size:0.8em;
+}
+
+.image_tags li /* style for an individual tag item*/
+{
+	display: inline;
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 5px;
+	background-color: #A9C0C9;
+	margin-right: 5px;
+}

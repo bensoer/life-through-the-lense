@@ -1,0 +1,65 @@
+<div class="image_navigation">
+	<ul>
+		<li><a href="#" onclick="view9(1)"><img src="images/first.png" height="40" width="40" alt="First page"></a></li>
+		<li><a href="#" onclick="view9(1)"><img src="images/back.png" height="40" width="40" alt="Back a page"></a></li>
+		<li> Page 2 (10-18)</li>
+		<li><a href="#" onclick="view9(3)"><img src="images/forward.png" height="40" width="40" alt="Next page"></a></li>
+		<li><a href="#" onclick="view9(12)"><img src="images/last.png" height="40" width="40" alt="Last page"></a></li>
+	</ul>
+</div>
+<div class="thumbleft">
+	<a href="picture.php?photoName=714">
+		<img src="thumbs/714.JPG" height="200px" width="134px" alt="Little mushrooms collecting little rocks.">
+	</a>
+</div>
+<div class="thumbmid">
+	<a href="picture.php?photoName=774">
+		<img src="thumbs/774.JPG" height="200px" width="131px" alt="Lone little red mushroom.">
+	</a>
+</div>
+<div class="thumbright">
+	<a href="picture.php?photoName=1000">
+		<img src="thumbs/1000.JPG" height="133px" width="200px" alt="Little mushroom below a web.">
+	</a>
+</div>
+<br>
+<div class="thumbleft">
+	<a href="picture.php?photoName=1191">
+		<img src="thumbs/1191.JPG" height="200px" width="133px" alt="Inside of a tree split by lightening.">
+	</a>
+</div>
+<div class="thumbmid">
+	<a href="picture.php?photoName=1302">
+		<img src="thumbs/1302.JPG" height="133px" width="200px" alt="Two tiny mushrooms on a fallen log.">
+	</a>
+</div>
+<div class="thumbright">
+	<a href="picture.php?photoName=1485">
+		<img src="thumbs/1485.JPG" height="200px" width="133px" alt="Macro of tiny ferns growing on a tree trunk.">
+	</a>
+</div>
+<br>
+<div class="thumbleft">
+	<a href="picture.php?photoName=1614">
+		<img src="thumbs/1614.JPG" height="168px" width="200px" alt="Collection of fungi.">
+	</a>
+</div>
+<div class="thumbmid">
+	<a href="picture.php?photoName=2028">
+		<img src="thumbs/2028.JPG" height="133px" width="200px" alt="Little orange mushroom basking in the sun.">
+	</a>
+</div>
+<div class="thumbright">
+	<a href="picture.php?photoName=2051">
+		<img src="thumbs/2051.JPG" height="200px" width="133px" alt="Four little mushrooms on the side of a tree.">
+	</a>
+</div>
+<div class="image_navigation">
+	<ul>
+		<li><a href="#" onclick="view9(1)"><img src="images/first.png" height="40" width="40" alt="First page"></a></li>
+		<li><a href="#" onclick="view9(1)"><img src="images/back.png" height="40" width="40" alt="Back a page"></a></li>
+		<li> Page 2 (10-18)</li>
+		<li><a href="#" onclick="view9(3)"><img src="images/forward.png" height="40" width="40" alt="Next page"></a></li>
+		<li><a href="#" onclick="view9(12)"><img src="images/last.png" height="40" width="40" alt="Last page"></a></li>
+	</ul>
+</div>

@@ -1,0 +1,49 @@
+/*CSS for registration added by GLO*/
+/*---------------------------------*/
+
+/*contains structure for the register form*/
+.register
+{
+	width: 520px;
+	margin: auto;
+}
+
+.left
+{
+	float:left;
+	width: 180px;
+	margin-bottom:10px;
+	text-align:right;
+}
+
+.right
+{
+	float:right;
+	width: 300px;
+	margin-bottom:10px;
+}
+
+.sub{
+	font-size:0.8em;
+}
+
+.clear 
+{
+	clear:both;
+}
+
+/* fieldset and legend CSS are in the base.cs file*/
+
+
+/*CSS for sign in added by GLO*/
+/*---------------------------------*/
+.signin
+{
+	width: 550px;
+	margin: auto;
+}
+
+#txtEmail_error, #txtPassword_error, #txtName_error{
+	color: red;
+	font-size:0.8em;
+}

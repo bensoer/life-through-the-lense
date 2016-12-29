@@ -1,0 +1,242 @@
+/* picture style */
+
+#image_container /* holds the image and its information box on the left side of the page */
+{
+	height:650px;
+	width: 420px;
+	float: left;
+	padding: 10px;
+	position: relative;
+}
+
+#single_image_container /* temporary image for visual reference - website content will replace this later */
+{
+	margin-left: 8px;
+	border: none;
+	height: 480px;
+	width: 400px;
+	text-align: center;
+	line-height: 480px;
+}
+
+.port_image /* temporary image for visual reference - website content will replace this later */
+{
+	height: 100%;
+	width: auto;
+	vertical-align: middle;
+	border: 5px solid black;
+}
+
+.land_image /* temporary image for visual reference - website content will replace this later */
+{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border: 5px solid black;
+}
+
+.port_image:hover
+{
+	border: 5px solid white;
+}
+
+.land_image:hover
+{
+	border: 5px solid white;
+}
+
+/* SINGLE IMAGE MAX SIZE: HEIGHT - 480px, WIDTH - 400px*/
+
+.image_info /* information section below the image - contains its name, tags and a description */
+{
+	display: block;
+	border: 1px solid black;
+	margin-top: 20px;
+	background-color: #DDDDDD;
+	border-radius: 10px;
+}
+
+.image_info_header /* information section below the image - contains its name, tags and a description */
+{
+	display: block;
+	margin: 10px;
+}
+
+.image_title /* the title of the displayed image */
+{
+	margin: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #314D39;
+}
+
+.image_tags /* the image tag list - displays all the tags attached to the displayed image */
+{
+	padding-left: 20px;
+}
+
+.image_tags li /* style for an individual tag item*/
+{
+	display: inline;
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 5px;
+	background-color: #A9C0C9;
+	margin-right: 5px;
+}
+
+.tag_title /* style for the tag section title */
+{
+	display: inline;
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 5px;
+	background-color: none;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+.image_description /* the div containing any text meant to go with the image. */
+{
+	display: block;
+	margin: 10px;
+}
+
+.description_text
+{
+	padding-left: 20px;
+}
+
+/******** Start of the Comment style section ********/
+
+#comment_container /* contains the comment entry form and a list of comments on this particular image */
+{
+	width: 45%;
+	margin-left: 52%;
+	height: 650px;
+	padding: 10px;
+}
+
+#comment_box /* holds the comment entry form */
+{
+	border: none;
+	display: block;	
+	padding: 10px;
+	padding-bottom: 30px;
+	padding-right: 15px;
+	margin-bottom: 30px;
+	background-color: #DDDDDD;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#comment_text_input /* style for the text input box */
+{
+	height: 100px;
+	width: 100%;
+	resize: none;
+}
+
+#comment_login
+{
+	margin-left: 20px;
+}
+
+#comment_login a
+{
+	color: #314D39;
+}
+
+#comment_submit /* the button to submit a comment */
+{
+	float: right;
+	margin-right: 10px;
+}
+
+#comment_list /* holds all loaded comments for the shown picture */
+{
+	height: 59%;
+	display: block;	
+	padding: 10px;
+}
+
+.comment /* contains a single comment */
+{
+	padding: 5px;
+	padding-bottom: 25px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.no_comment /* contains a single comment */
+{
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: #DDDDDD;
+}
+
+.comment:nth-child(odd) /* sets the background color for all odd comments in a list */
+{
+	background-color: #A9C0C9;
+}
+
+.comment:nth-child(even) /* sets the background color for all odd comments in a list */
+{
+	background-color: #94A8B0;
+}
+
+.post_time /* displays the time of its surrounding post */
+{
+	font-size: 11px;
+	float: right;
+	margin: 5px;
+	
+}
+
+.comment_text_content /* contains the text of the post */
+{
+	margin: auto;
+	padding: 5px;
+	background-color: #DDDDDD;
+	border-radius: 10px;
+	width: 96%;
+}
+
+.no_comment_text /* contains the text of the post */
+{
+	margin: auto;
+	padding: 5px;
+	width:300px;
+	color: #314D39;
+	font-weight: bold;
+}
+
+.user_info /* contains the username and post count */
+{
+	margin-left: 5px;
+}
+
+.username /* username style */
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #314D39;
+}
+
+.posts
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.post_header /* contains the user image and user info divs */
+{
+	width: 100%;
+	height: 40px;
+}

@@ -1,0 +1,37 @@
+/*CSS for sign in added by GLO*/
+/*---------------------------------*/
+.signin
+{
+	width: 460px;
+	margin: auto;
+}
+.signin a
+{
+	color: #314D39;
+}
+
+.left
+{
+	float:left;
+	width: 120px;
+	margin-bottom:10px;
+	text-align:right;
+}
+
+.right
+{
+	float:right;
+	width: 300px;
+	margin-bottom:10px;
+}
+
+.sub
+{
+	font-size:0.8em;
+}
+
+.clear 
+{
+	clear:both;
+}
+/* fieldset and legend CSS is located in the base.css*/

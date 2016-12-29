@@ -1,0 +1,195 @@
+/* picture style */
+
+#image_container /* holds the image and its information box on the left side of the page */
+{
+	margin-left: auto;
+	margin-right: auto;
+	height:650px;
+	width: 420px;
+	padding: 10px;
+}
+
+#single_image_container /* temporary image for visual reference - website content will replace this later */
+{
+	border: none;
+	height: 480px;
+	width: 400px;
+	text-align: center;
+	line-height: 480px;
+}
+
+.port_image /* temporary image for visual reference - website content will replace this later */
+{
+	margin: auto;
+	height: 100%;
+	width: auto;
+	vertical-align: middle;
+	border: 5px solid black;
+}
+
+.land_image /* temporary image for visual reference - website content will replace this later */
+{
+	margin: auto;
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border: 5px solid black;
+}
+
+.port_image:hover
+{
+	border: 5px solid white;
+}
+
+.land_image:hover
+{
+	border: 5px solid white;
+}
+
+/* SINGLE IMAGE MAX SIZE: HEIGHT - 480px, WIDTH - 400px*/
+
+.image_info /* information section below the image - contains its name, tags and a description */
+{
+	display: block;
+	border: 1px solid black;
+	margin-top: 20px;
+	background-color: #DDDDDD;
+	border-radius: 10px;
+}
+
+.image_title /* the title of the displayed image */
+{
+	margin: 10px;
+	margin-top:15px;
+	margin-left: 20px;
+	float: left;
+}
+
+.image_tags /* the image tag list - displays all the tags attached to the displayed image */
+{
+	float: left;
+	margin-right: 20px;
+}
+
+.image_tags li /* style for an individual tag item*/
+{
+	display: inline;
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 5px;
+	background-color: #A9C0C9;
+	margin-right: 5px;
+}
+
+.image_description /* the div containing any text meant to go with the image. */
+{
+	display: block;
+	margin: 10px;
+}
+
+/******** Start of the Comment style section ********/
+
+#comment_container /* contains the comment entry form and a list of comments on this particular image */
+{
+	display: none;
+}
+
+#comment_box /* holds the comment entry form */
+{
+	display: none;
+}
+
+#comment_text_input /* style for the text input box */
+{
+	display: none;
+}
+
+#comment_submit /* the button to submit a comment */
+{
+	display: none;
+}
+
+#comment_list /* holds all loaded comments for the shown picture */
+{
+	display: none;
+}
+
+.comment /* contains a single comment */
+{
+	display: none;
+}
+
+.comment:nth-child(odd) /* sets the background color for all odd comments in a list */
+{
+	background-color: #A9C0C9;
+}
+
+.comment:nth-child(even) /* sets the background color for all odd comments in a list */
+{
+	background-color: #94A8B0;
+}
+
+.user_image /* containing box for a user's unique identifying picture */
+{
+	display: none;
+}
+
+.post_time /* displays the time of its surrounding post */
+{
+	display: none;
+}
+
+.comment_text_content /* contains the text of the post */
+{
+	display: none;
+}
+
+.user_info /* contains the username and post count */
+{
+	display: none;
+}
+
+.post_header /* contains the user image and user info divs */
+{
+	display: none;
+}
+/* BASE FILE ALTERATIONS */
+#header /* page header - contains logo, title, navigation, search, login and sign up */
+{
+	width: 100%;
+	padding: 6px;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+#login_link
+{
+	display: none;
+}
+.nav /* the navigation list style */
+{
+	diaply: none;
+}
+
+.nav li  /* individual nav list item style */
+{
+	display: none;
+}
+#search_label
+{
+	display: none;
+}
+#title
+{
+	color: black;
+	font-size: 40px;
+}
+#header_left
+{
+	text-align: right;
+}
+#logo
+{
+	padding-left: 130px;
+}

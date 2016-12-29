@@ -1,0 +1,247 @@
+/* ADDED TO ORIGINAL CSS ~ BEN SOER */
+/* The CSS below is used by the About Page and the Members Page*/
+
+#main_left /* left panel of body content on both About and Members Pages*/
+{
+
+	float: left;
+	width: 20%;
+	margin-top: 21px;
+}
+#main_right /* right panel of body content on both About and Members Pages*/
+{
+	min-height: 650px;
+	margin-left: 168px;
+	width: 80%;
+	position: relative;
+	padding: 5px;
+}
+#photographer:hover
+{
+	curosr: pointer;
+	color: white;
+	text-decoration: underline;
+}
+#equipment:hover
+{
+	curosr: pointer;
+	color: white;
+	text-decoration: underline;
+}
+#biography /*biography on right panel about page*/
+{
+	margin: 10px;
+	padding: 20px;
+	position: absolute;
+	top: 0px;
+}
+#equipment_bio /*equipment box on right panel of about page*/
+{
+	margin: 10px;
+	padding: 20px;
+	position: absolute;
+	top: 0px;
+}
+
+#equipment_bio a
+{
+	color: #314D39;
+}
+
+#menu /* left side navigation menu*/
+{
+	border: 2px solid black;
+	height: 200px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: #698967;
+}
+#menu a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+#controls /* Contact, Facebook and Twitter links */
+{
+	margin: auto;
+	margin-top: 10px;
+	border: 2px solid black;
+	background-color: #698967;
+	width: 100%;
+}
+
+#control_links
+{
+	margin: auto;
+	width: 82%;
+}
+
+#control_links a
+{
+	color: black;
+}
+
+#control_contact
+{
+	position: relative;
+	bottom: 2px;
+}
+
+#control_fbook
+{
+	position: relative;
+	top: 1px;
+}
+
+.control_item
+{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.subtext /*text under form to assist/guide user */
+{
+	font-size: 0.6em;
+}
+fieldset
+{
+	width: 625px;
+	
+}
+th
+{
+	text-align:left;
+}
+#join
+{
+	width: 650px;
+	margin: auto;
+}
+.settings_table th
+{
+	width: 150px;
+}
+#subscriptions 
+{
+	position: absolute;
+	top: 0px;
+	padding: 10px;
+}
+#subscription_left /* left panel of subscription fieldset section on members page*/
+{
+	float:left;
+	width: 50%;
+}
+#subscription_left ul
+{
+	list-style-type: none;
+}
+#subscriptions_menu:hover
+{ 
+	color: white;
+	text-decoration: underline;
+}
+#subscription_right /* right panel of subscription fieldset section on members page*/
+{
+	float: left;
+}
+#account_settings
+{
+	position: absolute;
+	top: 0px;
+	padding: 10px;
+}
+#account_menu:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+#form
+{
+	position: absolute;
+	top: 0px;
+	padding:10px;
+}
+#form_menu:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+/* table styles*/
+/* sets outside border, collapses borders, centers table and sets width*/
+#limits_table
+{
+	border: 1px solid black;
+}
+#order_limits
+{
+	padding-right: 15px;
+	padding-left: 10px;
+	float: left;
+	text-align: center;
+}
+#form_right
+{
+	float:left;
+	width: 330px;
+}
+
+table {
+	border:1px solid #4682B3;
+	border-collapse:collapse;
+	margin:10px auto 15px;
+	width:270px;
+	font-size: 0.8em;
+}
+
+tr:nth-of-type(odd){
+	background-color:#A9C0C9;
+}
+
+tr:nth-of-type(even){
+	background-color:#94A8B0;
+}
+
+th{
+	padding:5px;
+}
+
+td{
+	padding:5px;
+}
+
+#account_error, #txtNewPassword_error, #txtNewEmail_error, #txtName_error, #txtEmail_error, #txtPhone_error, #txtAddress_error, #txtCity_error, #selProvince_error, #txtPCode_error, #txtDescription_error{
+	color: red;
+	font-size:0.8em;
+}
+.clear 
+{
+	clear:both;
+}
+
+.join_content
+{
+	width: 575px;
+	margin: auto;
+}
+
+.join_content a
+{
+	color: #314D39;
+}
+
+.left
+{
+	float:left;
+	width: 120px;
+	margin-bottom:10px;
+	text-align:right;
+}
+
+.right
+{
+	float:right;
+	width: 500px;
+	margin-bottom:10px;
+}
